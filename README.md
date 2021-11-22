@@ -69,11 +69,11 @@ ERD
  - 프레젠테이션 및 발표영상 준비
 
 #### 개발환경
-    - 운영체제 : Window 10
-    - 개발도구 : Eclipse
-    - DBMS : Oracle DB - sqldeveloper
-    - Server : Apache Tomcat 8.5
-    - Language : Java, HTML5, CSS3, Javascript, JQuery, Servlet, JSP
+- 운영체제 : Window 10
+- 개발도구 : Eclipse
+- DBMS : Oracle DB - sqldeveloper
+- Server : Apache Tomcat 8.5
+- Language : Java, HTML5, CSS3, Javascript, JQuery, Servlet, JSP
     
     
     
