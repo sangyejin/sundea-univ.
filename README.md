@@ -157,7 +157,7 @@ __1. 학생 상담 조회__
 __2. 학생 성적 조회__
 학생으로 로그인 시 해당 학생의 성적을 조회 할 수 있습니다. 메뉴바에서 성적을 클릭하면 학기별 성적과 이수구분별 성적을 조회 할 수 있습니다. 각각의 전공합계, 교양합계, 총합계 등 필요한 값을 계산하고 필요에 따라서 DB에서 새로운 view를 생성하여 사용하였습니다.
 
-####이수구분별 성적 
+#### 2-1. 이수구분별 성적 
 ```
 //Dao
 	public ArrayList<StudentDivisionGrade> student_divisionGrade(Connection conn, String userId) {
@@ -236,7 +236,7 @@ __2. 학생 성적 조회__
 				</tbody>
 ```
 
-####학기별 성적 조회
+#### 2-2. 학기별 성적 조회
 ```
 //Dao
 	public ArrayList<StudentSemeterGrade> student_semesterGrade(Connection conn, String userId) {
@@ -385,7 +385,7 @@ __4. 증명서 발급 시 링크 이동__
 __5. 로그인 후 메인 페이지(지도, 달력, 날씨정보 구현)__
 순대학교 학사 정보 관리 시스템에 로그인하면 맨처음 보여지는 인덱스페이지에 지도와 달력 날씨정보를 API와 HTML을 활용해서 구현해보았습니다.
 
--- KakaoMap API
+#### KakaoMap API
 ```
 			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=[발급받은 key번호]"></script>
 			<script>
@@ -415,7 +415,7 @@ __5. 로그인 후 메인 페이지(지도, 달력, 날씨정보 구현)__
 			</script>
 ```
 
--- openweatherMap API
+#### openweatherMap API
 ```
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <div class="weather">
@@ -439,7 +439,7 @@ __5. 로그인 후 메인 페이지(지도, 달력, 날씨정보 구현)__
 		</script>
 ```
 
--- calender HTML
+#### calender HTML
 ```
 			<table id="calendar" align="center">
 			    <tr>
